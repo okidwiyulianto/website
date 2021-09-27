@@ -1,6 +1,6 @@
 <span id="a">root@localhost</span>:<span id="b">~</span><span id="c">$</span> cat about.txt<br/><br/>
-Hello, I am Oki Dwi Yulianto.<br>
-I am an ordinary citizen from Java Island and I majored in International Business Program with a concentration in Accounting.<br/>
+Hei, I'm Oki Dwi Yulianto.<br>
+I am an ordinary citizen from Java Island and I have graduated from diploma program, majored in International Business with a concentration in Accounting.<br/>
 I got started with technology at the age of 14 when my parents to let me use their home's telephone to connect the internet to my pc.<br/>
 I am not good in English, Microsoft Excel, AutoHotKey, HTML, CSS, PHP, JavaScript, C++, and Python, but I will try to "speak" it, if it's needed.<br/>
 I created some projects based on my experiences as employee and student such as: Daily Report Cluster Template, Daily Portofolio Unit Template, WhatsApp Blast, AutoHotKey Cleansing Error, KeyLogger, Bot Trading.<br/>
