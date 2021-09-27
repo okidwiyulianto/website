@@ -1,14 +1,14 @@
 :root {
-	background-color: #000 !important;
+	background-color: #282828 !important;
 }
 
 body {
-	background-color: #000
+	background-color: #282828
 }
 
 #console {
 	font=family: monospace;
-	color: #fff;
+	color: #66FF66;
 	width:750px;
 	margin-left:auto;
 	margin-right:auto;
