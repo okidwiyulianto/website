@@ -1,5 +1,5 @@
 <span id="a">root@localhost</span>:<span id="b">~</span><span id="c">$</span> cat about.txt<br/><br/>
-Hei, I'm Oki Dwi Yulianto.<br>
+Hi, I'm Oki Dwi Yulianto.<br>
 I am an ordinary citizen from Java Island and I have graduated from diploma program, majored in International Business with a concentration in Accounting.<br/>
 I got started with technology at the age of 14 when my parents to let me use their home's telephone to connect the internet to my pc.<br/>
 I am not good in English, Microsoft Excel, AutoHotKey, HTML, CSS, PHP, JavaScript, C++, and Python, but I will try to "speak" it, if it's needed.<br/>
