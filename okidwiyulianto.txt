@@ -1,11 +1,11 @@
-<span id="a">root@localhost</span>:<span id="b">~</span><span id="c">$</span> cat okidwiyulianto.txt<br/><br/>
+<span id="a">root@localhost</span>:<span id="b">~</span><span id="c">$</span> cat about.txt<br/><br/>
 Hello, I am Oki Dwi Yulianto.<br>
 I am an ordinary citizen from Java Island and I majored in International Business Program with a concentration in Accounting.<br/>
 I got started with technology at the age of 14 when my parents to let me use their home's telephone to connect the internet to my pc.<br/>
 I am not good in English, Microsoft Excel, AutoHotKey, HTML, CSS, PHP, JavaScript, C++, and Python, but I will try to "speak" it, if it's needed.<br/>
 I created some projects based on my experiences as employee and student such as: Daily Report Cluster Template, Daily Portofolio Unit Template, WhatsApp Blast, AutoHotKey Cleansing Error, KeyLogger, Bot Trading.<br/>
 If you would like to get in touch with me, whether it be for tech support, or to just say hi, feel free to send me an email.
-My email address is: <a href="mailto:admin@okidwiyulianto.com"><u>admin@okidwiyulianto.com</u></a>.<br/>
+My email address is: <a href="mailto:admin@okidwiyulianto.com">admin@okidwiyulianto.com</a>.<br/>
 If you want some more privacy with me, you can download my GPG Public Key at here.<br/>
 My GPG Fingerprint:<br/>
 5822 f1a4 2784 a48d b041<br/>
