@@ -1,4 +1,4 @@
-<span id="a">root@debian</span>:<span id="b">~</span><span id="c">$</span> cat okidwiyulianto.txt<br/><br/>
+cat okidwiyulianto.txt<br>
 Hello, I am Oki Dwi Yulianto.<br>
 I am an ordinary citizen from Java Island and I majored in International Business Program with a concentration in Accounting.<br>
 I got started with technology at the age of 14 when my parents to let me use their home's telephone to connect the internet to my pc.<br>
