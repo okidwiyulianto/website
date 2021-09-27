@@ -37,7 +37,6 @@
 </style> 
 </head> 
 <body>
-<div id='material'/>
 <script type="text/javascript"> 
 	var Typer={
 	text: null,
@@ -148,7 +147,6 @@ function t() {
 	}
 }
 </script> 
-<div id="console"></div>
 <script>
 //<![CDATA[
   function getQueryVariable(variable) {
@@ -173,6 +171,9 @@ var canvasDiv = document.getElementById("material"),
     particleCanvas = new ParticleNetwork(canvasDiv, options);
 //]]>
 </script>
+<div id='material'>
+	<div id="console">
+	</div>
 </div>
 </body> 
 </html>
