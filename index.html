@@ -6,6 +6,9 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <style type="text/css">
+	html, body {
+		background-color:#282828;
+	}
 	#console {
 		font-family: courier;
 		color: #fff;
@@ -141,7 +144,7 @@ function t() {
 }
 </script>
 <script>
-particlesJS.load("console", "particlesjs-config.json", function() {
+particlesJS.load("console", "../particlesjs-config.json", function() {
   console.log("callback - particles.js config loaded");
 });
 </script>
