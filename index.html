@@ -52,16 +52,13 @@
 			Typer.text = Typer.text.slice(0, Typer.text.length-1);
 		});
 	},
- 
 	content:function(){
 		return $("#console").html();// get console content
 	},
- 
 	write:function(str){// append to console content
 		$("#console").append(str);
 		return false;
 	},
- 
 	makeAccess:function(){//create Access Granted popUp      FIXME: popup is on top of the page and doesn't show is the page is scrolled
 		Typer.hidepop(); // hide all popups
 		Typer.accessCount=0; //reset count
@@ -80,12 +77,10 @@
 		$(document.body).prepend(ddiv);// prepend div to body
 		return false;
 	},
- 
 	hidepop:function(){// remove all existing popups
 		$("#deni").remove();
 		$("#gran").remove();
 	},
- 
 	addText:function(key){//Main function to add the code
 		if(key.keyCode==18){// key 18 = alt key
 			Typer.accessCount++; //increase counter 
@@ -122,7 +117,6 @@
 			key.returnValue = false;
 		}
 	},
- 
 	updLstChr:function(){ // blinking cursor
 		var cont=this.content(); // get console 
 		if(cont.substring(cont.length-1,cont.length)=="|") // if last char is the cursor
@@ -131,7 +125,6 @@
 			this.write("|"); // else write it
 	}
 }
- 
 function replaceUrls(text) {
 	var http = text.indexOf("http://");
 	var space = text.indexOf(".me ", http);
@@ -145,7 +138,6 @@ function replaceUrls(text) {
 Typer.speed=5;
 Typer.file="okidwiyulianto.txt";
 Typer.init();
- 
 var timer = setInterval("t();", 30);
 function t() {
 	Typer.addText({"keyCode": 123748});
@@ -156,4 +148,4 @@ function t() {
 </script> 
 <div id="console"></div>
 </body> 
-</html> 
+</html>
