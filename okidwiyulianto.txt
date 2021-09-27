@@ -8,7 +8,7 @@ If you would like to get in touch with me, whether it be for tech support, or to
 My email address is: <a href="mailto:admin@okidwiyulianto.com"><u>admin@okidwiyulianto.com</u></a>.<br/>
 If you want some more privacy with me, you can download my GPG Public Key at here.<br/>
 My GPG Fingerprint:<br/>
-5822 f1a4 2784 a48d b041<br/> 
-bf98 c1b1 81b2 c46c 3348<br/>
+5822 f1a4 2784 a48d b041<br/>
+bf98 c1b1 81b2 c46c 3348
 <br/>
 Best Regards,
