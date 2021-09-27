@@ -5,8 +5,17 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 <style type="text/css">
-	body {
-		background-color: #000
+	html,body {
+		margin:0;
+		padding:0;
+		background-color: #000;
+	}
+	.background {
+		position:absolute;
+		display:block;
+		top:0;
+		left:0;
+		z-index:0;
 	}
 	#console {
 		font-family: courier;
@@ -154,6 +163,8 @@ function t() {
 }
 </script> 
 <div id="console"></div>
+<canvas class="background"></canvas>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 <script src="https://npmcdn.com/particlesjs@2.2.2/dist/particles.min.js"></script>
 <script>
       window.onload = function() {
