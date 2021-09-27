@@ -7,12 +7,11 @@ body {
 }
 
 #console {
-	font=family: monospace;
+	font=family: Fira Code;
 	color: #66FF66;
-	width:750px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:100px;
+	margin-top:auto;
 	font-size:14px;
 }
 
