@@ -34,6 +34,9 @@
 	#b {
 		color: #ff0096;
 	}
+	.wrapper {
+		position: relative;
+	}
 </style> 
 </head> 
 <body>
@@ -171,9 +174,9 @@ var canvasDiv = document.getElementById("material"),
     particleCanvas = new ParticleNetwork(canvasDiv, options);
 //]]>
 </script>
-<div id='material'>
-	<div id="console">
-	</div>
+<div class="wrapper">
+	<div id="material"></div>
+	<div id="console"></div>
 </div>
 </body> 
 </html>
