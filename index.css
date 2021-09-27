@@ -7,7 +7,7 @@ body {
 }
 
 #console {
-	font=family: Fira Code;
+	font-family: Fira Code;
 	color: #33FF33;
 	margin-left:auto;
 	margin-right:auto;
