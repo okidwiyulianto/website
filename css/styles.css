@@ -1,9 +1,6 @@
 html,
 body {
     background-color: #000000;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
 }
 
 #console {
@@ -32,9 +29,4 @@ a {
 
 #c {
     color: #cccccc;
-}
-
-#particles-js{
-    height: 100%;
-    background-color: #000000;
 }
