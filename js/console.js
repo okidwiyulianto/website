@@ -112,12 +112,3 @@ function t() {
         clearInterval(timer);
     }
 }
-
-var canvasDiv = document.getElementById('console');
-var options = {
-  particleColor: '#fff',
-  interactive: true,
-  speed: 'high',
-  density: 'high'
-};
-var particleCanvas = new ParticleNetwork(canvasDiv, options);
