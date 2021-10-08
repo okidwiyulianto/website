@@ -1,11 +1,11 @@
 html,
 body {
-    background-color: #000000;
+    background-color: #282828;
 }
 
 #console {
     font-family: courier;
-    color: #cccccc;
+    color: #33ff33;
     margin-top: 50px;
     margin-bottom: 25px;
     padding: 20px 25px;
@@ -33,5 +33,5 @@ a:hover {
 }
 
 #c {
-    color: #cccccc;
+    color: #33ff33;
 }
