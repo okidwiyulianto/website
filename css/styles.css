@@ -1,7 +1,7 @@
 html,
 body {
-    background-color: #000000;
     bacground-image: url("https://okidwiyulianto.com/images/kali.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;  
