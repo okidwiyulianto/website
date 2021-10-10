@@ -1,8 +1,10 @@
 html,
 body {
     background-color: #000000;
-    animation: fadein 6s;
-    opacity: 1;
+    bacground-image: url("images/kali.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;  
 }
 
 #console {
