@@ -21,7 +21,7 @@ a {
 
 a:hover {
     background-color: #transparent;
-    box-shadow: 0 0 30px #fff;
+    box-shadow: 0 0 20px #fff;
     color: #fff;
 }
 
