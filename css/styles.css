@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: #282828;
+    background-color: #000000;
 }
 
 #console {
@@ -22,6 +22,7 @@ a {
 a:hover {
     background-color: #ff2e88;
     color: #fff;
+    box-shadow: 0 0 30px #ccccc;
 }
 
 #a {
