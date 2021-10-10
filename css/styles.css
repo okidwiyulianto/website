@@ -4,7 +4,7 @@ body {
 }
 
 #console {
-    font-family: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+    font-family: Lucida Console;
     color: #33ff33;
     margin-top: 50px;
     margin-bottom: 25px;
