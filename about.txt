@@ -1,4 +1,4 @@
-<span id="a">root@kali</span>:<span id="b">~</span><span id="c">$</span> cat about.txt
+<span id="a">root@kali</span>:<span id="b">~</span><span id="c">$</span> cat about.txt<br/>
 <p>Hello, I am Oki Dwi Yulianto. You can call me Oki. I am an ordinary citizen from Java Island and I am graduation from diploma program, majored in International Business with a concentration in Accounting.</p>
 <p>I have got start with technology since the age of 14, when my parents to let me use the home's telephone to connect the internet to my personal computer and that was the best memory that I have ever had.</p>
 <p>I am not good in English, German, VisualBasic, AutoHotKey, HTML, CSS, PHP, JavaScript, C, C++, Java, and Python, but I will try to "speak" it, if it's needed.</p>
