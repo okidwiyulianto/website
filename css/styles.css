@@ -1,6 +1,12 @@
 html,
 body {
     background-color: #000000;
+    animation: fadebackground 3s infinite;
+}
+
+@keyframes fadebackground {
+    from {background-color: #000000;}
+    to {background-color: #282828;}
 }
 
 #console {
