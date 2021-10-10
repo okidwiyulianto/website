@@ -2,11 +2,7 @@ html,
 body {
     background-color: #000000;
     animation: fadein 6s;
-}
-
-@keyframes fadebackground {
-    from {background-color: #000000;}
-    to {background-color: #282828;}
+    opacity: 1;
 }
 
 #console {
