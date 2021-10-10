@@ -15,11 +15,13 @@ a {
     cursor: pointer;
     color: #ff2e88;
     text-decoration: none;
-    border-bottom: 1px solid #ffb000;
+    border-bottom: 1px solid #ff2e88;
 }
 
 a:hover {
+    background-color: #ff2e88;
     color: #fff;
+    box-shadow: 0 0 5px #fff;
 }
 
 #a {
