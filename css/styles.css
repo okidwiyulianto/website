@@ -1,7 +1,7 @@
 html,
 body {
     background-color: #000000;
-    animation: fadebackground 6s infinite;
+    animation: fadein 6s;
 }
 
 @keyframes fadebackground {
