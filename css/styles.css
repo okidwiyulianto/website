@@ -8,7 +8,9 @@ html, body {
     margin-top: 50px;
     margin-bottom: 25px;
     padding: 20px 25px;
-    text-shadow: 0 0 20px #ff05b;
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 20px #33ff33;
 }
 
 a {
