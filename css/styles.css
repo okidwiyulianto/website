@@ -4,6 +4,7 @@ html, body {
 
 #console {
     font-family: Lucida Console;
+    font-size: 16px;
     color: #ffffff;
     margin-top: 50px;
     margin-bottom: 25px;
