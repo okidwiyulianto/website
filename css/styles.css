@@ -1,8 +1,10 @@
 html, body {
-    background-color: #282828; 
+    background-color: #282828;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 #console {
+    font-family: "Lucida Console", "Courier New", monospace;
     border: 3px solid #888;
     color: #66FF66;
     border-radius: 15px;
