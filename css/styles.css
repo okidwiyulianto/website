@@ -1,12 +1,12 @@
 html, body {
-    background-color: #000000; 
+    background-color: #282828; 
 }
 
 #console {
-    font-family: Lucida Console;
-    color: #ffffff;
-    margin-top: 50px;
-    margin-bottom: 25px;
+    border: 3px solid #888;
+    color: #66FF66;
+    border-radius: 15px;
+    margin-bottom: 15px;
     padding: 20px 25px;
 }
 
