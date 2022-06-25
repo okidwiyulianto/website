@@ -8,6 +8,7 @@ html, body {
     border: 3px solid #888;
     color: #66FF66;
     border-radius: 15px;
+    box-shadow: 0 0 10px #9ecaed;
     margin-bottom: 15px;
     padding: 20px 25px;
 }
