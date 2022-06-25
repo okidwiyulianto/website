@@ -1,8 +1,8 @@
 <span id="a">root@kali</span>:<span id="b">~</span><span id="c">$</span> cat about.txt<br/>
-Halo! Nama saya Oki Dwi Yulianto. Biasa dipanggil Oki. Saya adalah netizen yang berasal dari Indonesia. Saya lulusan D3 akuntansi.<br/>
-Saya suka bermain alat musik, sulap, baca dan berpetualang.<br/>
+Halo! Nama saya Oki Dwi Yulianto. Biasa dipanggil Oki. Saya adalah seorang pria biasa, warga negara Indonesia.<br/>
+Saya suka bermain alat musik, sulap, baca, belajar bahasa pemrograman dan berpetualang.<br/>
 Saya mulai kenal dengan teknologi sejak umur 14 tahun, ketika orang tua saya mengijinkan akses internet melalui sambungan telepon rumah.<br/>
 Jika kamu ingin menghubungi saya, bisa kirim email ke: <a href="mailto:admin@okidwiyulianto.com">admin@okidwiyulianto.com</a>.<br/>
-Do you want more privacy with me? You can download my GPG Public Key at <a href="https://shrinke.me/MwQP1v">here</a>. My GPG Fingerprint: 5822 f1a4 2784 a48d b041 bf98 c1b1 81b2 c46c 3348 or you can directly chat with me by <a href="https://shrinke.me/Ekwd">Threema</a>, and you can request my Threema ID by email.<br/>
-Best Regards,
+Ingin lebih privasi dengan saya, silakan download kunci publik GPG saya di <a href="https://shrinke.me/MwQP1v">sini</a>. Sidik jari kunci: 5822 f1a4 2784 a48d b041 bf98 c1b1 81b2 c46c 3348 atau kamu bisa chat langsung ke saya melalui aplikasi Threema, <a href="https://shrinke.me/Ekwd">Threema</a>, kamu bisa request ID Threema saya melalui email.<br/>
+Salam,
 Oki Dwi Yulianto
