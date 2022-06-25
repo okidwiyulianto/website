@@ -4,7 +4,7 @@ html, body {
 
 #console {
     font-family: 'Courier New', Courier, monospace;
-    border: 3px solid #888;
+    border: 4px solid #888;
     color: #66FF66;
     border-radius: 15px;
     box-shadow: 0 0 10px #ff2e88;
