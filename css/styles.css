@@ -1,6 +1,7 @@
 html, body {
     background-color: #282828;
     font-family: "Lucida Console", "Courier New", monospace;
+    margin: auto;
 }
 
 #console {
