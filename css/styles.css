@@ -3,7 +3,7 @@ html, body {
 }
 
 #console {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: 'Courier New', Courier, monospace;
     border: 3px solid #888;
     color: #66FF66;
     border-radius: 15px;
