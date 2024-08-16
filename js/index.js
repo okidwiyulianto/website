@@ -23,7 +23,7 @@ input.addEventListener('keyup', function(event) {
             if (command === 'portfolio') {
                 window.open('https://github.com/okidwiyulianto', '_blank');
             } else if (command === 'blog') {
-                window.open('https://blog.okidwiyulianto.com', '_blank');
+                window.open('https://catatanoki.tumblr.com', '_blank');
             }
         } else {
             output.innerHTML += `<span class="error">Command not found: ${command}</span><br><br>`;
