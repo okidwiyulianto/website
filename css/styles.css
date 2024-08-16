@@ -1,37 +1,120 @@
-html, body {
-    background-color: #282828;
+body {
+    background-color: #f4f3fa;
+    color: #ffffff;
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-
-#console {
-    font-family: 'Courier New', Courier, monospace;
-    border: 4px solid #888;
-    color: #66FF66;
-    border-radius: 15px;
-    box-shadow: 0 0 10px #ff2e88;
-    padding: 20px 25px;
+#terminal {
+    width: 90%;
+    max-width: 800px;
+    height: 90vh;
+    background-color: rgba(56, 4, 40, 0.9);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-
-a {
+#terminal-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #3c3b37;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.window-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+.window-controls {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    display: flex;
+}
+.control-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+#minimize { background-color: #f9c04f; }
+#restore { background-color: #62c554; }
+#close { background-color: #ed6b60; }
+.menu-bar {
+    display: flex;
+    padding: 5px 0;
+}
+.menu-item {
+    margin-right: 15px;
+    font-size: 12px;
     cursor: pointer;
-    color: #ff2e88;
-    text-decoration: none;
-    border-bottom: 1px solid #ffb000;
 }
-
-a:hover {
-    background-color: #ff2e88;
-    color: #fff;
-    box-shadow: 0 0 10px #ff2e88;
+#terminal-content {
+    height: calc(100% - 50px);
+    margin-top: 50px;
+    padding: 10px;
+    overflow-y: auto;
+    box-sizing: border-box;
 }
-
-#a {
-    color: #ff0096;
+#output {
+    margin-bottom: 10px;
 }
-
-#b {
-    color: #0bc;
+#input-line {
+    display: flex;
+    flex-wrap: wrap;
 }
-
-#c {
-    color: #cccccc;
+#prompt {
+    color: #4e9a06;
+}
+#user {
+    color: #729fcf;
+}
+input {
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 16px;
+    outline: none;
+    min-width: 50px;
+}
+.command {
+    color: #729fcf;
+}
+.error {
+    color: #cc0000;
+}
+@media (max-width: 600px) {
+    #terminal {
+        width: 95%;
+        height: 95vh;
+    }
+    #terminal-content {
+        font-size: 14px;
+    }
+    input {
+        font-size: 14px;
+    }
+    .menu-bar {
+        font-size: 10px;
+    }
+    .menu-item {
+        margin-right: 10px;
+    }
 }
