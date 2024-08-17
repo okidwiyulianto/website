@@ -2,7 +2,7 @@ const output = document.getElementById('output');
 const input = document.getElementById('command-input');
 
 const commands = {
-    home: "Welcome to the home page!<br>You are visiting Oki Dwi Yulianto personal website. For further information about me you can type command 'about'.",
+    home: "Welcome to the home page!<br>You are visiting Oki Dwi Yulianto personal website. For further information about me you can type command 'about'",
     about: "About Me:<br>Hello I'm Oki Dwi Yulianto, just call me Oki. I'm just an ordinary man, passionate about creating, learning, and analyzing anything. Sometimes people think I am a geek, nerd, or weird. My hobbies are listening and playing musics. My religion is kindness. My life dedicated to learning, meditating and pursuing enlightenment. Wanna know about my daily life? type command 'blog'",
     portfolio: "Opening my portfolio in a new tab...",
     blog: "Opening my blog in a new tab...",
