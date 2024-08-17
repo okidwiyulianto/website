@@ -4,9 +4,9 @@ const input = document.getElementById('command-input');
 const commands = {
     home: "Welcome to the home page!<br>You are visiting Oki Dwi Yulianto personal website. For further information about me you can type command 'about' without single quote.",
     about: "About Me:<br>I'm just an ordinary man passionate about creating, learning, and analyzing anything. My hobbies are listening and playing musics. My religion is kindness. My life dedicated to learn and pursue nirvana. Wanna know about my daily life? type command 'blog'",
-    portfolio: "Opening GitHub in a new tab...",
-    blog: "Opening blog in a new tab...",
-    help: "Available commands:<br>home - Display home page<br>about - Show information about me<br>portfolio - Open GitHub in a new tab<br>blog - Open blog in a new tab<br>help - Display this help message<br>clear - Clear the terminal",
+    portfolio: "Opening my portfolio in a new tab...",
+    blog: "Opening my blog in a new tab...",
+    help: "Available commands:<br>home - Display home page<br>about - Show information about me<br>portfolio - Open my portfolio in a new tab<br>blog - Open my blog in a new tab<br>help - Display this help message<br>clear - Clear the terminal",
     menu: "Available commands:<br>home - Display home page<br>about - Show information about me<br>portfolio - Open GitHub in a new tab<br>blog - Open blog in a new tab<br>help - Display this help message<br>clear - Clear the terminal"
 };
 
