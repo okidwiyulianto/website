@@ -6,8 +6,9 @@ const commands = {
     about: "About Me:<br>Hello I'm Oki Dwi Yulianto, just call me Oki. I'm just an ordinary man, passionate about creating, learning, and analyzing anything. Sometimes people think I am a geek, nerd, or weird. My hobbies are listening and playing musics. My religion is kindness. My life dedicated to learning, meditating and pursuing enlightenment. Wanna know about my daily life? type command 'blog'",
     portfolio: "Opening my portfolio in a new tab...",
     blog: "Opening my blog in a new tab...",
-    help: "Available commands:<br>home - Display home page<br>about - Show information about me<br>portfolio - Open my portfolio in a new tab<br>blog - Open my blog in a new tab<br>help - Display this help message<br>clear - Clear the terminal",
-    menu: "Available commands:<br>home - Display home page<br>about - Show information about me<br>portfolio - Open my portfolio in a new tab<br>blog - Open my blog in a new tab<br>help - Display this help message<br>clear - Clear the terminal"
+    help: "Available commands:<br>home - Display home page<br>about - Show information about me<br>blog - Open my blog in a new tab<br>help - Display this help message<br>clear - Clear the terminal",
+    menu: "Available commands:<br>home - Display home page<br>about - Show information about me<br>portfolio - Open my portfolio in a new tab<br>blog - Open my blog in a new tab<br>help - Display this help message<br>clear - Clear the terminal",
+    contact: "You can mail me at admin[at]okidwiyulianto[dot]com or WhatsApp: +6288225229396"
 };
 
 input.addEventListener('keyup', function(event) {
