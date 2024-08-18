@@ -2,8 +2,8 @@ const output = document.getElementById('output');
 const input = document.getElementById('command-input');
 
 const commands = {
-    home: "Welcome to the home page!<br>You are visiting Oki Dwi Yulianto personal website. For further information about me you can type command 'about'",
-    about: "About Me:<br>Hello I'm Oki Dwi Yulianto, just call me Oki. I'm just an ordinary man, passionate about creating, learning, and analyzing anything. Sometimes people think I am a geek, nerd, or weird. My hobbies are listening and playing musics. My religion is kindness. My life dedicated to learning, meditating and pursuing enlightenment. Wanna know about my daily life? type command 'blog'",
+    home: "Welcome to my home page!<br>You are visiting Oki Dwi Yulianto personal website. For further information about me you can type command 'about' without single quote.",
+    about: "About Me:<br>Hello I'm Oki Dwi Yulianto, you just call me Oki. I'm an ordinary man, passionate about creating, learning, and analyzing anything. Sometimes maybe people think I am an introvert, tech geek, nerd, or weird. That's just how I am. I like joke and comedy. My hobbies are listening musics and playing keyboard, ukulele, and guitar. My religion is kindness. My life dedicated to learning, meditating and pursuing enlightenment. Wanna know about my daily life? type command 'blog' without the prefix 'go' in front of it.",
     portfolio: "Opening my portfolio in a new tab...",
     blog: "Opening my blog in a new tab...",
     help: "Available commands:<br>home - Display home page<br>about - Show information about me<br>blog - Open my blog in a new tab<br>help - Display this help message<br>clear - Clear the terminal",
