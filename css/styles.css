@@ -9,30 +9,7 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-
-/* Penyesuaian untuk elemen header */
-header {
-    text-align: center; /* Untuk memusatkan judul */
-    margin-bottom: 20px; 
-}
-
-header h1 {
-    margin: 0;
-}
-
-header nav ul {
-    list-style: none; /* Menghilangkan bullet pada list */
-    padding: 0;
-    margin: 10px 0 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-/* Penyesuaian untuk section#terminal */
-section#terminal {
+#terminal {
     width: 90%;
     max-width: 800px;
     height: 90vh;
@@ -42,8 +19,7 @@ section#terminal {
     position: relative;
     box-shadow: 0 0 15px rgba(0, 255, 0);
 }
-
-.terminal-header { /* Mengubah #terminal-header menjadi .terminal-header */
+#terminal-header {
     position: absolute;
     top: 0;
     left: 0;
@@ -56,8 +32,7 @@ section#terminal {
     flex-direction: column;
     padding: 0 10px;
 }
-
-.window-title { 
+.window-title {
     flex: 1;
     display: flex;
     align-items: center;
@@ -65,61 +40,50 @@ section#terminal {
     color: #ffffff;
     font-size: 14px;
 }
-
 .window-controls {
     position: absolute;
     top: 5px;
     right: 10px;
     display: flex;
 }
-
 .control-button {
     width: 12px;
     height: 12px;
     border-radius: 50%;
     margin-left: 8px;
 }
-
 #minimize { background-color: #f9c04f; }
 #restore { background-color: #62c554; }
 #close { background-color: #ed6b60; }
-
 .menu-bar {
     display: flex;
     padding: 5px 0;
 }
-
 .menu-item {
     margin-right: 15px;
     font-size: 12px;
     cursor: pointer;
 }
-
-.terminal-content { /* Mengubah #terminal-content menjadi .terminal-content */
+#terminal-content {
     height: calc(100% - 50px);
     margin-top: 50px;
     padding: 10px;
     overflow-y: auto;
     box-sizing: border-box;
 }
-
 #output {
     margin-bottom: 10px;
 }
-
-.input-line { /* Mengubah #input-line menjadi .input-line */
+#input-line {
     display: flex;
     flex-wrap: wrap;
 }
-
-.prompt { /* Mengubah #prompt menjadi .prompt */
+#prompt {
     color: #4e9a06;
 }
-
-.user { /* Mengubah #user menjadi .user */
+#user {
     color: #729fcf;
 }
-
 input {
     flex-grow: 1;
     background-color: transparent;
@@ -130,33 +94,26 @@ input {
     outline: none;
     min-width: 50px;
 }
-
 .command {
     color: #729fcf;
 }
-
 .error {
     color: #cc0000;
 }
-
 @media (max-width: 600px) {
-    section#terminal {
+    #terminal {
         width: 95%;
         height: 95vh;
     }
-
-    .terminal-content {
+    #terminal-content {
         font-size: 14px;
     }
-
     input {
         font-size: 14px;
     }
-
     .menu-bar {
         font-size: 10px;
     }
-
     .menu-item {
         margin-right: 10px;
     }
