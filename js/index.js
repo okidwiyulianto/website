@@ -2,8 +2,8 @@ const output = document.getElementById('output');
 const input = document.getElementById('command-input');
 
 const commands = {
-    home: "Welcome to my home page!<br>You are visiting Oki Dwi Yulianto personal website. For further information about me you can type command 'about' without single quote.",
-    about: "About Me:<br>Hello I'm Oki Dwi Yulianto, you just call me Oki. I'm an ordinary man, passionate about creating, learning, and analyzing anything. Sometimes maybe people think I am an introvert, tech geek, nerd, or weird. That's just how I am. I like joke and comedy. My hobbies are listening musics, playing keyboard, ukulele, and guitar. My religion is kindness. My life dedicated to learning, meditating and pursuing enlightenment. Wanna know about my daily life? type command 'blog' without the prefix 'go' in front of it.",
+    home: "Welcome to my homepage!<br> You've landed on Oki Dwi Yulianto's personal website. To learn more about me, just type the command 'about' let's dive in.",
+    about: "About Me:<br>Hey there! I'm Oki Dwi Yulianto, but just call me Oki. I'm your average guy who loves to create, learn, and figure things out. Some folks might think I'm a bit of an introvert, a tech geek, a nerd, or maybe even a little weird. But hey, that's just me! I enjoy a good laugh and love cracking jokes.  When I'm not busy tinkering, you'll find me listening to music or jamming on my keyboard, ukulele, or guitar. Kindness is my religion, and I dedicate my life to learning, meditation, and seeking enlightenment.  Curious about my day-to-day? Just type 'blog' – no need for the 'go' in front.",
     portfolio: "Opening my portfolio in a new tab...",
     blog: "Opening my blog in a new tab...",
     help: "Available commands:<br>home - Display home page<br>about - Show information about me<br>blog - Open my blog in a new tab<br>help - Display this help message<br>clear - Clear the terminal",
