@@ -89,7 +89,7 @@ input {
     background-color: transparent;
     border: none;
     color: #ffffff;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     outline: none;
     min-width: 50px;
