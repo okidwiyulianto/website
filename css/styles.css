@@ -17,7 +17,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    box-shadow: 0 0 15px rgba(0, 255, 0);
+    box-shadow: 0 0 20px rgba(0, 255, 0);
 }
 #terminal-header {
     position: absolute;
