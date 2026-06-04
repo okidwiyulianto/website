@@ -331,21 +331,21 @@ footer {
       <b:if cond='data:view.isPage and data:view.url == &quot;https://www.okidwiyulianto.com/p/contact.html&quot;'>
         <article>
           <h2>Hubungi Saya</h2>
-          <form action='https://formspree.io/f/xrednjen' method='POST' style='display:flex;flex-direction:column;gap:1rem;width:100%;max-width:100%;box-sizing:border-box;'>
-            <div style='display:flex;flex-direction:column;gap:0.5rem;'>
-              <label for='name' style='font-weight:bold;'>Nama Anda</label>
-              <input id='name' name='name' required='required' style='padding:0.75rem;border:1px solid #ccc;border-radius:5px;font-size:1rem;width:100%;box-sizing:border-box;' type='text'/>
-            </div>
-            <div style='display:flex;flex-direction:column;gap:0.5rem;'>
-              <label for='email' style='font-weight:bold;'>Alamat Email</label>
-              <input id='email' name='_replyto' required='required' style='padding:0.75rem;border:1px solid #ccc;border-radius:5px;font-size:1rem;width:100%;box-sizing:border-box;' type='email'/>
-            </div>
-            <div style='display:flex;flex-direction:column;gap:0.5rem;'>
-              <label for='message' style='font-weight:bold;'>Pesan</label>
-              <textarea id='message' name='message' required='required' rows='5' style='padding:0.75rem;border:1px solid #ccc;border-radius:5px;font-size:1rem;font-family:inherit;width:100%;box-sizing:border-box;'/>
-            </div>
-            <button style='background:firebrick;color:#fff;padding:0.75rem;border:none;border-radius:5px;font-size:1rem;font-weight:bold;cursor:pointer;transition:all 0.3s ease;box-sizing:border-box;' type='submit'>Kirim Pesan</button>
-          </form>
+<form action='https://formspree.io/f/xrednjen' method='POST' onsubmit='setTimeout(() =&gt; { this.reset(); }, 500);' style='display:flex;flex-direction:column;gap:1rem;width:100%;max-width:100%;box-sizing:border-box;'>
+  <div style='display:flex;flex-direction:column;gap:0.5rem;'>
+    <label for='name' style='font-weight:bold;'>Nama Anda</label>
+    <input id='name' name='name' required='required' style='padding:0.75rem;border:1px solid #ccc;border-radius:5px;font-size:1rem;width:100%;box-sizing:border-box;' type='text'/>
+  </div>
+  <div style='display:flex;flex-direction:column;gap:0.5rem;'>
+    <label for='email' style='font-weight:bold;'>Alamat Email</label>
+    <input id='email' name='_replyto' required='required' style='padding:0.75rem;border:1px solid #ccc;border-radius:5px;font-size:1rem;width:100%;box-sizing:border-box;' type='email'/>
+  </div>
+  <div style='display:flex;flex-direction:column;gap:0.5rem;'>
+    <label for='message' style='font-weight:bold;'>Pesan</label>
+    <textarea id='message' name='message' required='required' rows='5' style='padding:0.75rem;border:1px solid #ccc;border-radius:5px;font-size:1rem;font-family:inherit;width:100%;box-sizing:border-box;'/>
+  </div>
+  <button style='background:firebrick;color:#fff;padding:0.75rem;border:none;border-radius:5px;font-size:1rem;font-weight:bold;cursor:pointer;transition:all 0.3s ease;box-sizing:border-box;' type='submit'>Kirim Pesan</button>
+</form>
         </article>
       </b:if>
       <!-- b:section ini digunakan untuk widget blog post -->
@@ -1268,7 +1268,7 @@ footer {
       </b:if>
     </main>
     <!-- Footer ditempatkan di luar kondisi agar tidak berulang-->
-    <footer>&#169; 2010 - 2026. Made with &#10084;&#65039; by OKI DWI YULIANTO. All rights reserved.</footer>
+    <footer>Copyright &#169; 2010 - 2026. Made with &#10084;&#65039; by OKI DWI YULIANTO. All rights reserved. Powered by Blogger</footer>
     
   <script>
 particlesJS(&#39;particles-js&#39;, {
