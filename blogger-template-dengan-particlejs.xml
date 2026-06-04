@@ -76,17 +76,13 @@ header, nav, main, aside, footer {
 }
 
 header {
-    background: rgba(30, 30, 30, 0.05);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: rgba(20, 20, 20, 0.05);
     padding: 2rem 1rem;
     text-align: center; /* Membuat teks h1 dan p di dalam header berada di tengah */
 }
 
 nav {
-    background: rgba(40, 40, 40, 0.05);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    background: rgba(20, 20, 20, 0.05);
     margin-bottom: 1.5rem;
     padding: 1rem;
 }
