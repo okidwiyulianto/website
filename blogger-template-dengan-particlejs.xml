@@ -50,11 +50,11 @@ html, body {
     color: #33FF33;
     background-color: #131314;
     background-image: 
-        radial-gradient(circle at 20% 30%, rgba(26, 115, 232, 0.15) 0%, transparent 40%),
-        radial-gradient(circle at 80% 70%, rgba(161, 68, 201, 0.15) 0%, transparent 45%),
-        radial-gradient(circle at 50% 50%, rgba(217, 48, 37, 0.05) 0%, transparent 50%);
+        radial-gradient(circle at 20% 30%, rgba(26, 115, 232, 0.30) 0%, transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(161, 68, 201, 0.30) 0%, transparent 45%),
+        radial-gradient(circle at 50% 50%, rgba(217, 48, 37, 0.15) 0%, transparent 50%);
     background-size: 200% 200%;
-    animation: geminiMesh 60s ease infinite;
+    animation: geminiMesh 50s ease-in-out infinite;
 }
 
 /* Semua elemen teks otomatis mengikuti warna utama */
@@ -172,7 +172,7 @@ footer {
         background-position: 0% 50%;
     }
     50% {
-        background-position: 100% 50%;
+        background-position: 100% 100%;
     }
     100% {
         background-position: 0% 50%;
@@ -346,7 +346,7 @@ footer {
       </b:if>
       <!-- b:section ini digunakan untuk widget blog post -->
       <b:section class='main' id='main' showaddelement='yes'/>
-      <b:if cond='not data:view.isHomepage and data:blog.pageType == &quot;index&quot;'>
+      <b:if cond='data:view.isPost or (not data:view.isHomepage and data:blog.pageType == &quot;index&quot;)'>
         <b:section id='blog-container'>
           <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog' version='1'>
             <b:widget-settings>
@@ -1264,7 +1264,7 @@ footer {
       </b:if>
     </main>
     <!-- Footer ditempatkan di luar kondisi agar tidak berulang-->
-    <footer>Copyright &#169; 2010 - 2026. Made with &#10084;&#65039; by OKI DWI YULIANTO. All rights reserved. Powered by Blogger</footer>
+    <footer>Copyright &#169; 2010 - 2026<br/> Made with &#10084;&#65039; by OKI DWI YULIANTO</footer>
     
   <script>
 particlesJS(&#39;particles-js&#39;, {
