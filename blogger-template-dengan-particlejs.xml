@@ -107,8 +107,16 @@ nav ul {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center; /* Membuat daftar menu (ul) berada di tengah */
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-separator {
+    color: #33FF33;
+    opacity: 0.4;
+    font-weight: bold;
+    user-select: none;
 }
 
 nav a {
@@ -117,9 +125,7 @@ nav a {
 }
 
 main {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+    display: block;
     width: 100%;
 }
 
@@ -131,27 +137,25 @@ main {
 .post, article {
     flex: 3;
     min-width: 0;
-    background: rgba(40, 40, 40, 0.6);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    padding: 1.5rem;
-    border-radius: 20px;
-    border: 2px solid rgba(255, 16, 240, 1);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
-    animation: glow-pulse 4s infinite ease-in-out;
+    background: rgba(28, 28, 30, 0.75); /* Hitam premium */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08); /* Garis tepi sangat tipis */
+    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.3); /* Bayangan gelap yang dalam */
 }
 
 aside {
     flex: 1;
     min-width: 0;
-    background: rgba(40, 40, 40, 0.6);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: rgba(38, 38, 40, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     padding: 1.5rem;
-    border-radius: 20px;
-    border: 2px solid rgba(255, 16, 240, 1);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
-    animation: glow-pulse 4s infinite ease-in-out;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.25);
 }
 
 img {
@@ -204,20 +208,6 @@ footer {
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15),
                     0 0 30px rgba(102, 255, 102, 0.5);
     }
-}
-
-
-/* ==========================================================================
-   5. MEDIA QUERIES (DESAIN RESPONSIF)
-   ========================================================================== */
-
-@media (max-width: 600px) {
-    main {
-        flex-direction: column;
-    }
-    aside {
-        margin-top: 1rem;
-    }
 }]]></b:skin>
   
   <!-- Particles.js CDN -->
@@ -231,85 +221,64 @@ footer {
     <!-- Header dan Navigasi Ditempatkan di luar kondisi agar tidak berulang -->
     <header>
       <h1>OKI DWI YULIANTO</h1>
-      <p>Selamat datang di website pribadiku</p>
+      <p>Selamat datang di website pribadiku 👽🖖</p>
     </header>
     <nav>
       <ul>
         <li>
           <a href='/'>
-            <span aria-label='Home' role='img'>🏠</span>Home
+            <span aria-label='Home' role='img'>~/</span>home
           </a>
         </li>
+        <li class='nav-separator'>|</li>
         <li>
-          <a href='/search'>
-            <span aria-label='Notes' role='img'>&#9997;&#65039;</span>Notes
+          <a href='/p/about.html'>
+            <span aria-label='About' role='img'>?</span>whoami
           </a>
         </li>
-        <li>
-          <a href='https://github.com/okidwiyulianto' target='_blank'>
-            <span aria-label='Portfolio' role='img'>🏆</span>Portfolio
-          </a>
-        </li>
+        <li class='nav-separator'>|</li>
         <li>
           <a href='/p/contact.html'>
-            <span aria-label='Contact' role='img'>🤙</span>Contact
+            <span aria-label='Contact' role='img'>@</span>ping
+          </a>
+        </li>
+        <li class='nav-separator'>|</li>
+        <li>
+          <a href='/search'>
+            <span aria-label='Notes' role='img'>$</span>cat notes
+          </a>
+        </li>
+        <li class='nav-separator'>|</li>
+        <li>
+          <a href='https://github.com/okidwiyulianto' target='_blank'>
+            <span aria-label='Portfolio' role='img'>&amp;</span>sudo init --pf
           </a>
         </li>
       </ul>
     </nav>
     <!-- Bagian utama, konten akan berubah berdasarkan jenis halaman -->
+<!-- Bagian utama, konten akan berubah berdasarkan jenis halaman -->
     <main>
-      <!-- Konten homepage -->
-      <b:if cond='data:view.isHomepage'>
+      <!-- Konten halaman home -->
+<b:if cond='data:view.isHomepage'>
+  <article>
+    <h1>Halo! 👋 </h1>
+    <p>Selamat datang di ruang kreatif saya!</p>
+    <p>Tempat di mana data, hobi, dan eksperimen seru berkumpul jadi satu. Silakan lihat-lihat, siapa tahu ada hal menarik yang bisa dijadikan referensi atau insipirasi.</p>
+    <p>Mau tahu lebih banyak tentang saya, silakan jelajah pada menu navigasi di atas ya.</p>
+    <p>
+      * home =&gt; halaman utama website ini.<br/>
+      * whoami =&gt; siapa sih Oki.<br/>
+      * ping =&gt; untuk menghubungi Oki via email.<br/>
+      * cat notes =&gt; untuk melihat tulisan karya Oki.<br/>
+      * sudo init --pf =&gt; untuk melihat portofolio karya Oki.<br/>
+    </p>
+  </article>
+</b:if>
+
+      <!-- Konten halaman About -->
+      <b:if cond='data:view.isPage and data:view.url == &quot;https://www.okidwiyulianto.com/p/about.html&quot;'>
         <article>
-          <center>
-            <h2>Belajar &amp; Upgrade Skill di Kelas Skillpedia</h2>
-          </center>
-          <div class='center'>
-            <a href='https://s.id/skillmurah' target='_blank'>
-              <picture>
-                <img alt='Skillpedia' height='500' src='https://lh3.googleusercontent.com/pw/AP1GczPJu8fbbugaDHepENjpgEdsgd6WHY6P3xSJb6yalAT5E4dgXxOyOdq2y1n-Kvr-Q_ATPAOe0xzl6EqGQ_bEQcyuuVOZqGBvWy6KjWDvimyNbRhsgfrcR9heLKOmR-cC_akkrKdQtEfPQeGlfnco9UEd=w948-h617-s-no-gm?authuser=0' width='500'/>
-              </picture>
-            </a>
-          </div>
-          <p>Merasa kursus dan bootcamp terlalu mahal?
-                    
-            <br/>🚫 Tenang, 
-            <a href='https://s.id/skillmurah' target='_blank'>Skillpedia.id</a> kasih solusi cerdas: 
-            <span class='stabilo'>
-              <b>akses lifetime</b>
-            </span> ke ratusan kursus online, biar skill-mu makin naik level, tanpa bikin uangmu boros.
-                    
-            <br/>💡 Ini saatnya investasi cerdas ke masa depan dengan cara paling 
-            <span class='stabilo'>
-              <b>hemat dan efektif</b>
-            </span>.
-                    
-            <br/>Tunggu apa lagi 
-            <a href='https://s.id/skillmurah' target='_blank'>klik sekarang juga</a> dan wujudkan impianmu bersama kami! 🚀
-          </p>
-          <center>
-            <h2>Belajar &amp; Upgrade Skill di Kelas Kursus Digital</h2>
-          </center>
-          <div class='center'>
-            <a href='https://s.id/kursusdigitalid' target='_blank'>
-              <picture>
-                <img alt='Kursus Digital' height='500' src='https://lh3.googleusercontent.com/pw/AP1GczNqp6fQND_W5HGzzMw8pHTL6IKvyEWOvp-KQ5GySIV4gq7WRHyrMZHZ_rGhVx4u1l2ZfVbNRqzo4aJRpGUvmjn6qLFU5xrI7nVPWD4KdjM-HXdwNaZsET71vjlWVveD7QB8b_WyCokWwWXVBWcnfH5b=w616-h617-s-no-gm?authuser=0' width='500'/>
-              </picture>
-            </a>
-          </div>
-          <p>Mau CV makin cakep dengan 
-            <span class='stabilo'>
-              <b>portofolio + sertifikat</b>
-            </span> resmi nasional? 🎓 Atau pengen jago Microsoft Office biar langsung nyambung sama kebutuhan kerja? 💼 Yuk gabung di 
-            <a href='https://s.id/kursusdigitalid' target='_blank'>Kursus Digital</a> belajar gampang, biaya ramah kantong, sertifikat sah buat ningkatin peluang kerja kamu! 🚀
-          </p>
-        </article>
-        <aside>
-          <center>
-            <h2>Tentang Saya</h2>
-          </center>
-          <!-- Penggunaan div dan class untuk perataan tengah -->
           <div class='center'>
             <a href='/'>
               <picture>
@@ -317,19 +286,21 @@ footer {
               </picture>
             </a>
           </div>
-          <p>Halo semuanya! 👋, perkenalkan nama saya Oki Dwi Yulianto, biasa dipanggil Oki. Saya berasal dari Indonesia.</p>
+          <p>Perkenalkan nama saya Oki Dwi Yulianto, biasa dipanggil Oki. Saya berasal dari Indonesia.</p>
           <p>Saya adalah seorang admin 🤓, lifelong learner👨&#8205;🏫, blogger &#9997;, penggila teknologi informasi 👨&#8205;💻, dan analis 🕵&#65039;&#8205;&#9794;&#65039;.</p>
           <p>Saya suka jalan-jalan pagi 🚶&#8205;&#9794;&#65039;, meditasi 🧘&#8205;&#9794;&#65039;, dan baca-tulis 📚🧐&#9997;.</p>
           <p>Tools aplikasi yang setiap hari saya gunakan adalah Microsoft Office Excel, Google Spreadsheet, Microsoft Power BI, Google Looker Studio, dan Text Editor (JetBrains, Visual Studio Code, Emacs, Vi, Nano).</p>
           <p>Saya memiliki pengalaman banyak membuat project, report, dan dashboard untuk internal perusahaan-perusahaan.</p>
+          <p>Saya juga memiliki rekomendasi belajar atau kursus online hingga saya bisa melek teknologi seperti sekarang ini, yaitu di <a href='https://s.id/skillmurah' target='_blank'>Skillpedia.id</a> dan <a href='https://s.id/kursusdigitalid' target='_blank'>Kursus Digital Indonesia</a></p>
           <p>Jika anda ingin diskusi lebih lanjut dan ingin minta kontak saya silakan bisa klik halaman kontak atau email langsung di 
             <span class='stabilo'>
               <b>admin@okidwiyulianto.com</b>
             </span>
           </p>
           <p>Atau jika anda ingin komunikasi dan mengirim data yang private, aman dan terenkripsi. Silakan <a href='https://s.id/gnupg'>unduh</a> GnuPG kunci public saya.</p>
-        </aside>
+        </article>
       </b:if>
+    
       <!-- Konten halaman error -->
       <b:if cond='data:view.isError'>
         <article>
